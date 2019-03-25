@@ -161,6 +161,7 @@ if __name__ == '__main__':
     with change_dir(args.cache_directory):
         download_audio(lst)
         for item in [item + '.wav' for item in lst]:
+            input()
             play_audio(item)
             time.sleep(args.interval_time)
 
