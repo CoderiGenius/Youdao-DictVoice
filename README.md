@@ -32,6 +32,8 @@ brew install ffmpeg
 
 执行文件, 执行完后会有一个 ans.txt 文件用以保存播放的音频（以播放音频的顺序）
 
+按回车键一个一个单词播放
+
 ```
 python3 dictVoice.py
 ```
